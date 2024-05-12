@@ -12,7 +12,7 @@ function DeleteRoom() {
     .then(response => {
       if (response.ok) {
         setMessage('Room deleted successfully');
-        // Optionally, redirect to rooms list or perform any other action after room deletion
+        
       } else {
         setMessage('Failed to delete room');
       }

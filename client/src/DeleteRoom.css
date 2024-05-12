@@ -1,11 +1,11 @@
-/* DeleteRoom.css */
+
 
 .delete-room-container {
-    border: 2px solid #ccc; /* Add border around the component */
-    padding: 20px; /* Add padding */
-    width: 50%; /* Limit component width */
-    margin: 0 auto; /* Center the component horizontally */
-    text-align: center; /* Center text within the container */
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
   }
   
   .delete-room-form {

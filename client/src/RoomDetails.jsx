@@ -1,4 +1,3 @@
-// RoomDetails.jsx
 
 import React, { useState } from 'react';
 import './RoomDetails.css';
@@ -26,9 +25,9 @@ function RoomDetails() {
   };
 
   return (
-    <div className="room-details-container"> {/* Apply styles to the container */}
+    <div className="room-details-container"> 
       <h1>Room Details</h1>
-      <form className="room-details-form" onSubmit={handleSubmit}> {/* Apply styles to the form */}
+      <form className="room-details-form" onSubmit={handleSubmit}> 
         <label htmlFor="roomId">Enter Room ID:</label>
         <input
           type="text"
@@ -42,7 +41,7 @@ function RoomDetails() {
       </form>
       {error && <p>{error}</p>}
       {room && (
-        <div className="room-details-details"> {/* Apply styles to the room details */}
+        <div className="room-details-details"> 
           <div>
             <h2>{room.roomName}</h2>
           </div>
@@ -52,7 +51,7 @@ function RoomDetails() {
           <div>
             <p>Type: {room.type}</p>
           </div>
-          {/* Display other room details as needed */}
+          
         </div>
       )}
     </div>

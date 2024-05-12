@@ -1,18 +1,18 @@
 body {
-  font-family: 'Arial', sans-serif; /* Change the font family here */
+  font-family: 'Arial', sans-serif; 
   margin: 0;
   padding: 30px;
 }
 
 
-/* Add other CSS styles here */
+
 
 
 .nav-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px; /* Add margin for space between navigation and content */
+  margin-bottom: 20px; 
 }
 
 .nav-links {
@@ -23,18 +23,18 @@ body {
 }
 
 .nav-links li {
-  margin-right: 20px; /* Add margin between individual links */
+  margin-right: 20px;
 }
 
 .nav-links li:last-child {
-  margin-right: 0; /* Remove margin for the last link */
+  margin-right: 0; 
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: #333; /* Adjust link color as needed */
+  color: #333; 
 }
 
 .component-container {
-  margin-top: 20px; /* Add margin to create space between navigation and content */
+  margin-top: 20px;
 }

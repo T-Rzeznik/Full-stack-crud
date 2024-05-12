@@ -20,12 +20,12 @@ function RoomsList() {
   };
 
   return (
-    <div className="rooms-list-container"> {/* Apply styles to this container */}
+    <div className="rooms-list-container"> 
       <h1>Rooms List</h1>
       <button onClick={handleRefresh}>Refresh List</button>
       <ul className="rooms-list" style={{ listStyleType: 'none', padding: 0 }}>
         {rooms.map(room => (
-          <li key={room._id} className="room-item"> {/* Apply styles to each room item */}
+          <li key={room._id} className="room-item"> 
             <div>
               <strong>Name:</strong> {room.roomName}
             </div>
@@ -38,7 +38,7 @@ function RoomsList() {
             <div>
               <strong>ID:</strong> {room._id}
             </div>
-            {/* Add more room details as needed */}
+            
           </li>
         ))}
       </ul>
