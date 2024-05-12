@@ -1,15 +1,40 @@
 body {
+  font-family: 'Arial', sans-serif; /* Change the font family here */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Add other CSS styles here */
+
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin for space between navigation and content */
 }
 
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Add margin between individual links */
+}
+
+.nav-links li:last-child {
+  margin-right: 0; /* Remove margin for the last link */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333; /* Adjust link color as needed */
+}
+
+.component-container {
+  margin-top: 20px; /* Add margin to create space between navigation and content */
+}
