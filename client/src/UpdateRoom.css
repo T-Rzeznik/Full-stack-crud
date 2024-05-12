@@ -1,0 +1,31 @@
+/* UpdateRoom.css */
+
+.update-room-container {
+    border: 2px solid #ccc; /* Add border around the component */
+    padding: 20px; /* Add padding */
+    width: 50%; /* Limit component width */
+    margin: 0 auto; /* Center the component horizontally */
+    text-align: center; /* Center text within the container */
+  }
+  
+  .update-room-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .update-room-form label {
+    margin-bottom: 10px;
+  }
+  
+  .update-room-form input[type="text"],
+  .update-room-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .update-room-form button {
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+  
