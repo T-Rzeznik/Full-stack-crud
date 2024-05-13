@@ -20,15 +20,20 @@ node server.js
 
 To RUN react app:
 npm start
+
 ------------------
 
 Download dependancies before running.
 Use different terminals for sever and client.
 
 SEVER setup: 
+
 npm init -y
 npm install mongodb express
 
 CLIENT setup:
+
 npx create-react-app client
 npm install (dependancies)
+
+--------------------------------
